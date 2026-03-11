@@ -1,4 +1,4 @@
-# Whatsapp Link Sender
+# WhatsApp Link Sender
 A Google Apps Script that sends a WhatsApp group link only to student emails
 
 This resolves the problem of spammers joining your WhatsApp groups when you post the links online.
@@ -7,20 +7,20 @@ This resolves the problem of spammers joining your WhatsApp groups when you post
 
 ### Form
 
-Create a Google Form with a question that asks for the students' emails. Explain that it will be used to send them a link to your WhatsApp group.
+Create a Google Form with a question that asks for the students' emails. Explain that you will use it to send them a link to your WhatsApp group.
 
 ### Script
 
 1. From within the form editor, select **More** (three dots) > **Apps Script**
 
 > [!NOTE]
-> If you cannot see the Apps Script option, make sure it is enabled in the Admin console. Apps > Google Workspace > Settings for Drive and Docs > Google Apps Script
+> If you cannot see the Apps Script option, make sure it is enabled in the admin console. Apps > Google Workspace > Settings for Drive and Docs > Google Apps Script
 
-2. Paste the contents of `code.gs` in the repo into code.gs
+2. Paste the contents of `code.gs` in the repo into code.gs.
 3. Edit the constants to fit your organisation. For help writing the regex you can use a tool such as [Regex101](https://regex101.com/).
 
 > [!TIP]
-> Usage the same regex in your form so the users get immediate feedback if they type a non student email. On your form question, select **More Options** (three dots) > **Response validation** > **Regular expression**
+> Use the same regex in your form so the users get immediate feedback if they type a non-student email. On your form question, select **More Options** (three dots) > **Response validation** > **Regular expression**.
 
 ### Trigger
 
